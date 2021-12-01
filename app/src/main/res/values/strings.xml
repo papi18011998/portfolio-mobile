@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">portfolio</string>
+    <string name="deccrition">Je suis Papa Ibrahima NDIAYE\nApprenant en Dévelopement web et web mobile à Simplon Sénégal</string>
+    <string name="description_about">Après mon baccaularéat, je suis allé l’université pour faires des études dans le milieu du développement web pour pouvoir proposer des solutions informatiques à differentes personnes qui le souhaitent car aider une personne a toujours été quelque chose que j’aime. </string>
+    <dimen name="padding">10dp</dimen>
+</resources>
