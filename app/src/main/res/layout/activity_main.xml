@@ -691,6 +691,136 @@
                 android:layout_below="@id/github_bar"
                 android:gravity="center"/>
         </RelativeLayout>
+        <!--section mes qualites-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MES QUALITÉS"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"/>
+        <View
+            android:layout_width="150dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:layout_marginTop="5dp"/>
+        <!-- Qualite 1-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/img_quality_1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="@color/yellow"
+                android:layout_marginTop="5dp">
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/diplome"
+                    android:scaleType="centerCrop"/>
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:id="@+id/label_quality_1"
+                android:layout_toRightOf="@id/img_quality_1"
+                android:paddingLeft="30dp"
+                android:textSize="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Assiduité"
+                android:textColor="@color/white"/>
+        </RelativeLayout>
+        <!-- Qualite 2-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/img_quality_2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="@color/yellow"
+                android:layout_marginTop="5dp">
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/diplome"
+                    android:scaleType="centerCrop"/>
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:id="@+id/label_quality_2"
+                android:layout_toRightOf="@id/img_quality_2"
+                android:paddingLeft="30dp"
+                android:textSize="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Leadership"
+                android:textColor="@color/white"/>
+        </RelativeLayout>
+        <!-- Qualite 3-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/img_quality_3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="@color/yellow"
+                android:layout_marginTop="5dp">
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/diplome"
+                    android:scaleType="centerCrop"/>
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:id="@+id/label_quality_3"
+                android:layout_toRightOf="@id/img_quality_3"
+                android:paddingLeft="30dp"
+                android:textSize="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Resonsabilité"
+                android:textColor="@color/white"/>
+        </RelativeLayout>
+        <!-- Qualite 4-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/img_quality_4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="@color/yellow"
+                android:layout_marginTop="5dp">
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/diplome"
+                    android:scaleType="centerCrop"/>
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:id="@+id/label_quality_4"
+                android:layout_toRightOf="@id/img_quality_4"
+                android:paddingLeft="30dp"
+                android:textSize="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Respect des deadlines"
+                android:textColor="@color/white"/>
+        </RelativeLayout>
     </LinearLayout>
 </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
