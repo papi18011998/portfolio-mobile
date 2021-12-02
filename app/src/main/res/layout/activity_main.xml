@@ -42,7 +42,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Apprenent à Simplon Sénégal"
+            android:text="Apprenant à Simplon Sénégal"
             android:textSize="10dp"
             android:layout_gravity="center"
             android:textColor="@color/white"/>
@@ -135,8 +135,145 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Download my CV"
+            android:backgroundTint="@color/btn_default"
             android:layout_gravity="center"/>
+        <!--Cursus section-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cursus"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"/>
+        <View
+            android:layout_width="150dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:layout_marginTop="5dp"/>
+        <!--Cursus 1 -->
+        <RelativeLayout
+            android:padding="@dimen/padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/grade_1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="@color/yellow"
+                android:layout_marginTop="5dp">
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/grade"
+                    android:scaleType="centerCrop"/>
+            </androidx.cardview.widget.CardView>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2021-2022"
+                android:id="@+id/annee_1"
+                android:layout_toRightOf="@id/grade_1"
+                android:backgroundTint="@color/btn_default"
+                android:layout_marginLeft="10dp"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="100dp"
+                android:background="@color/white"
+                android:layout_below="@id/grade_1"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/annee_1"
+                android:textColor="@color/white"
+                android:text="@string/cursus_1"
+                android:layout_marginLeft="50dp"/>
+        </RelativeLayout>
+        <!--Cursus 2 -->
+        <RelativeLayout
+            android:padding="@dimen/padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/grade_2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="@color/yellow"
+                android:layout_marginTop="5dp">
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/grade"
+                    android:scaleType="centerCrop"/>
+            </androidx.cardview.widget.CardView>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2020"
+                android:id="@+id/annee_2"
+                android:layout_toRightOf="@id/grade_2"
+                android:backgroundTint="@color/btn_default"
+                android:layout_marginLeft="10dp"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="100dp"
+                android:background="@color/white"
+                android:layout_below="@id/grade_2"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/annee_2"
+                android:textColor="@color/white"
+                android:text="@string/cursus_2"
+                android:layout_marginLeft="50dp"/>
+        </RelativeLayout>
+        <!--Cursus 3 -->
+        <RelativeLayout
+            android:padding="@dimen/padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/grade_3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="@color/yellow"
+                android:layout_marginTop="5dp">
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/grade"
+                    android:scaleType="centerCrop"/>
+            </androidx.cardview.widget.CardView>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2018-2019"
+                android:id="@+id/annee_3"
+                android:layout_toRightOf="@id/grade_3"
+                android:backgroundTint="@color/btn_default"
+                android:layout_marginLeft="10dp"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="100dp"
+                android:background="@color/white"
+                android:layout_below="@id/grade_3"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/annee_3"
+                android:textColor="@color/white"
+                android:text="@string/cursus_3"
+                android:layout_marginLeft="50dp"/>
+        </RelativeLayout>
     </LinearLayout>
-
 </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
