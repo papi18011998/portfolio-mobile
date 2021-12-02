@@ -6,6 +6,8 @@
     <string name="cursus_2">Certification Git et GutHub\nCette formation de Openclassroom m\'a permis de comprendre comment versionner son code avec git mais aussi de l\'héberger sur GitHub. </string>
     <string name="cursus_3">Licence en génie informatique\nGénie Logiciel\nMon projet de licence portait sur la mise en place d\’un site de petite annonces permettant de mettre en relation l\’annonceur et le visiteur.  </string>
     <string name="description_about">Après mon baccaularéat, je suis allé l\’université pour faire des études dans le milieu du développement web pour pouvoir proposer des solutions informatiques à differentes personnes qui le souhaitent car aider une personne a toujours été quelque chose que j\’aime. </string>
+    <string name="experience_1">Stagiaire informatique\nAdminstrastion site Wordpress\nAdministration ODOO\nFormation utilisateurs internes\nMaintenance informatique\n</string>
+    <string name="experience_2">Informaticien\nAdminstrastion site Wordpress\nAdministration ODOO\nFormation utilisateurs internes\nMaintenance informatique\n</string>
     <dimen name="padding">10dp</dimen>
     <dimen name="padding_top">40dp</dimen>
 </resources>
