@@ -9,5 +9,6 @@
     <string name="experience_1">Stagiaire informatique\nAdminstrastion site Wordpress\nAdministration ODOO\nFormation utilisateurs internes\nMaintenance informatique\n</string>
     <string name="experience_2">Informaticien\nAdminstrastion site Wordpress\nAdministration ODOO\nFormation utilisateurs internes\nMaintenance informatique\n</string>
     <dimen name="padding">10dp</dimen>
+    <dimen name="padding_hobbies">20dp</dimen>
     <dimen name="padding_top">40dp</dimen>
 </resources>
