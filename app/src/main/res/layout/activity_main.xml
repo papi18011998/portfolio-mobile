@@ -911,6 +911,147 @@
                     android:layout_below="@id/loisir_4"/>
             </RelativeLayout>
         </LinearLayout>
+        <!--section me contacter-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ME CONTACTER"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"/>
+        <View
+            android:layout_width="150dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:layout_marginTop="5dp"/>
+        <!-- contact 1-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding">
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/email"
+                    android:id="@+id/img_contact_1"
+                    android:scaleType="centerCrop"/>
+            <TextView
+                android:id="@+id/label_contact_1"
+                android:layout_toRightOf="@+id/img_contact_1"
+                android:paddingLeft="20dp"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="papaibrahima98@gmail.com"
+                android:textColor="@color/white"/>
+        </RelativeLayout>
+        <!-- contact 2-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/place"
+                android:id="@+id/img_contact_2"
+                android:scaleType="centerCrop"/>
+            <TextView
+                android:id="@+id/label_contact_2"
+                android:layout_toRightOf="@+id/img_contact_2"
+                android:paddingLeft="20dp"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rufisque, Diorga Cherif"
+                android:textColor="@color/white"/>
+        </RelativeLayout>
+        <!-- contact 3-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/linkedin"
+                android:id="@+id/img_contact_3"
+                android:scaleType="centerCrop"/>
+            <TextView
+                android:id="@+id/label_contact_3"
+                android:layout_toRightOf="@+id/img_contact_3"
+                android:paddingLeft="20dp"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="papa-ibrahima-ndiaye-35361b193"
+                android:textColor="@color/white"/>
+        </RelativeLayout>
+        <!-- contact 4-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/github"
+                android:id="@+id/img_contact_4"
+                android:scaleType="centerCrop"/>
+            <TextView
+                android:id="@+id/label_contact_4"
+                android:layout_toRightOf="@+id/img_contact_4"
+                android:paddingLeft="20dp"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="papi18011998"
+                android:textColor="@color/white"/>
+        </RelativeLayout>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/padding"
+            android:inputType="text"
+            android:hint="Nom"
+            android:textSize="20dp"
+            android:textColor="@color/placeholders"
+            android:textColorHint="@color/placeholders"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/padding"
+            android:hint="Email"
+            android:textSize="20dp"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/placeholders"
+            android:textColorHint="@color/placeholders"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/padding"
+            android:hint="Objet de la demande"
+            android:textSize="20dp"
+            android:inputType="text"
+            android:textColor="@color/placeholders"
+            android:textColorHint="@color/placeholders"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/padding"
+            android:hint="Message"
+            android:textSize="20dp"
+            android:inputType="textMultiLine"
+            android:textColor="@color/placeholders"
+            android:textColorHint="@color/placeholders"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/yellow"
+            android:layout_margin="@dimen/padding"
+            android:text="Envoyer"/>
     </LinearLayout>
 </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,5 +10,6 @@
     <color name="yellow">#fec81a</color>
     <color name="yellow_bg_circles">#3d350f</color>
     <color name="btn_default">#202320</color>
+    <color name="placeholders">#393938</color>
     <color name="white">#FFFFFFFF</color>
 </resources>
