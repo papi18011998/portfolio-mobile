@@ -7,6 +7,7 @@
         <entry key="app/src/main/res/drawable/circle_bg.xml" value="0.35625" />
         <entry key="app/src/main/res/drawable/circle_skill_80.xml" value="0.2140625" />
         <entry key="app/src/main/res/drawable/circle_skills.xml" value="0.2140625" />
+        <entry key="app/src/main/res/drawable/custom_round_input_btn.xml" value="0.2140625" />
         <entry key="app/src/main/res/layout/activity_about.xml" value="0.27309782608695654" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.17299898682877407" />
       </map>
